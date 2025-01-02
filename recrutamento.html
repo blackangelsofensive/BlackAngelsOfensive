@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recrutamento - Anjos da Guarda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Vídeo de fundo -->
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source src="fundo.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+        </video>
+    </div>
+
+    <!-- Conteúdo do formulário de recrutamento -->
+    <div class="recrutamento-content">
+        <h1>Recrutamento - Black Angels</h1>
+        <p>Se você deseja se juntar aos BGO, preencha o formulário abaixo e aguarde nosso contato.</p>
+
+        <!-- Formulário de recrutamento -->
+        <form action="enviar.php" method="POST">
+            <label for="email">Digite seu e-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="Seu email">
+            <button type="submit" class="cta-btn">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
